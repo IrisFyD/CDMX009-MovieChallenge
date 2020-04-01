@@ -57,9 +57,20 @@ function getResultName(){
            const paraph= document.createElement('p')
            paraph.classList.add('card')
            paraph.innerHTML += `
-           <a href='#'><img src=${element.Poster}/></a>
+           <a href='javascript:open()'><img src=${element.Poster}/></a>
            `
            container.appendChild(paraph)
        });
     })
 };
+
+/*modal*/
+function open(){
+  document.getElementById('modalWindow').style.display='block';
+}
+
+
+function close(){
+  document.getElementById('modalWindow').style.display='none';
+}
+
