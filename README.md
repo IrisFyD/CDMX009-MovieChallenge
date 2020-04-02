@@ -63,5 +63,5 @@ Se crean historias de usuario.
 
 ## Resultado final
 
-![Final](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/src/images/Final.jpg?raw=true)
+![Final](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/docs/images/Final.jpg?raw=true)
 
