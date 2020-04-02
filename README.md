@@ -21,19 +21,19 @@ Se crean historias de usuario.
 
 ## Bocetaje
 
-![boceto](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/src/images/boceto.jpg?raw=true)
+![boceto](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/docs/images/boceto.jpg?raw=true)
 
 ## Wireframe
 
-![keyframe](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/src/images/wireframe.jpg?raw=true)
+![keyframe](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/docs/images/wireframe.jpg?raw=true)
 
 ## Prototipo
 
-![Prototipo](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/src/images/Proto.jpg?raw=true)
+![Prototipo](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/docs/images/Proto.jpg?raw=true)
 
 #### Feedback
 
-![Feedback](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/src/images/feeedback.png?raw=true)
+![Feedback](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/docs/images/feeedback.png?raw=true)
 
 ## Aprendizajes
 
