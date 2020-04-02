@@ -48,16 +48,20 @@ Se crean historias de usuario.
 - Feedback
 - To Do
 
-**Habilidades Blandas reforzadas**
+**Habilidades Blandas reforzadas:**
 - Trabajo bajo presión
 - Comunícación asertiva
 - Adaptabilidad a remoto
 - Planificación de horario
 - Tolerancia a la frustración
 
-**Herramientas**
+**Herramientas:**
 - Uso de figma en equipo
 - Edición rapida en PS
 - Trello
 - Github pages
+
+## Resultado final
+
+![Final](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/src/images/final.jpg?raw=true)
 
