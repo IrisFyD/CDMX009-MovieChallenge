@@ -293,3 +293,70 @@ transform:scale(1.1)
   #popupThree{
       display: none;
   }
+
+  @media screen and (max-width: 320px){
+    body{
+      background-color: darkblue;
+    }
+/*cards-menu*/
+
+.card{
+  position: relative;
+  width:50vw;
+  height: 72vw;
+  overflow: hidden;
+  color: #FFF;
+  margin:10px;
+  align-content: center;
+  align-self: center;
+  align-self: center;
+  box-shadow:0px 2px 10px #C90DFF;
+  text-align:center;
+  border-radius:10px;
+  transition:all .4s;      
+}
+      
+.card h2{
+  position: relative;
+  margin: 0;
+  padding:0;
+  font-size: 3.0vw;
+  z-index: 2;
+  font-family: Candara;
+  }
+      
+.card p{
+  position: relative;
+  margin: 0;
+  padding:0;
+  font-family: Candara;
+  font-size: 2.5vw;
+  z-index: 2;
+  }
+      
+.card img{
+  position: relative;
+  padding: 3vh;
+  height: 50vw;
+  z-index: 2;
+  }
+      
+.card:hover{
+box-shadow:1px 5px 10px #C90DFF;
+transform:scale(1.1)
+}
+
+  @font-face{
+    font-family: Candara;
+    src: url(fonts/Candara.ttf);
+    }
+
+#footer img{
+    height: 10vw;
+    cursor: pointer;
+     }
+#footer article{
+    color: #ffffff;
+    font-size: 3.0vw;
+    }
+  }
