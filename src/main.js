@@ -43,46 +43,13 @@ let container = document.getElementById('root');
 let buttonSendItem = document.getElementById('nameButton');
 buttonSendItem.addEventListener('click', getResultName);
 
-/*//Functions
-function getResultName(){
-    let nameItemReference = nameItem.value;
-    fetch('http://www.omdbapi.com/?s='+ nameItemReference + '&apikey=3d2c4f6f')
-    .then(res => res.json())
-    .then(data => {
-        //creates a const that saves the results
-       const moviesName = data.Search;
-       //iterates through each element in moviesName
-       moviesName.forEach(element => {
-           //Save the content in the  let container
-           const paraph= document.createElement('p')
-           paraph.classList.add('card')
-           paraph.innerHTML += `
-           <a href='javascript:open()'><img src=${element.Poster}/></a>
-           `
-           container.appendChild(paraph)
-       });
-    })
-};*/
-
-/*modal*/
-function open(){
-  document.getElementById('modalWindow').style.display='block';
-}
-
-
-function close(){
-  document.getElementById('modalWindow').style.display='none';
-}
-
-
-//prueba por titulo
 //Functions
 function getResultName(){
     let nameItemReference = nameItem.value;
     fetch('http://www.omdbapi.com/?s='+ nameItemReference + '&apikey=3d2c4f6f')
     .then(res => res.json())
     .then(data => {
-        //creates a const that saves the results
+       //creates a const that saves the results
        const moviesName = data.Search;
        //iterates through each element in moviesName
        moviesName.forEach(movie => {
@@ -97,7 +64,17 @@ function getResultName(){
            <p>Director: ${movie.Director}</p>
            `
           container.appendChild(paraph)
-
        });
     })
 };
+
+/*modal*/
+function open(){
+  document.getElementById('modalWindow').style.display='block';
+}
+
+
+function close(){
+  document.getElementById('modalWindow').style.display='none';
+}
+

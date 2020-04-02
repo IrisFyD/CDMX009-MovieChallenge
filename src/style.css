@@ -7,6 +7,7 @@ body{
    -moz-background-size: cover !important;
    -o-background-size: cover !important;
    background-color: #E8E8E8;
+   color: black;
 }
 
 /* Slider */
@@ -103,7 +104,8 @@ body{
   position: absolute;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: url('/img/56073.jpg');
+  /*background-image: url('images/background.jpg');*/
+  background-color:#E8E8E8;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
