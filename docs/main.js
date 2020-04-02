@@ -46,7 +46,7 @@ buttonSendItem.addEventListener('click', getResultName);
 //Functions
 function getResultName(){
     let nameItemReference = nameItem.value;
-    fetch('http://www.omdbapi.com/?s='+ nameItemReference + '&apikey=3d2c4f6f')
+    fetch('https://www.omdbapi.com/?s='+ nameItemReference + '&apikey=3d2c4f6f')
     .then(res => res.json())
     .then(data => {
        //creates a const that saves the results
