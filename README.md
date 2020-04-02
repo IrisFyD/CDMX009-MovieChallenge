@@ -5,6 +5,7 @@ En este proyecto se hace uso de la API de OMDB (The Open Movie Database), esta i
 
 ## UX
 Se crean historias de usuario.
+
 **Usuario final**
 Hombre y mujeres de 18 a 45 años con gusto por el cine, personas que tienden a interesarse más allá de solo el material final si no tambien todo lo que hay detrás de una producción. Actores, locaciones, guiones, Directores, datos curiosos y más.
 

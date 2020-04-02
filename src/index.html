@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8">
-    <title>Movie Challenge</title>
+    <title>The Film Seeker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" />
@@ -16,34 +16,217 @@
     </nav>
     
     <div class='slide-container'>
-        <div class='ourSlider fade'>
-          <img src='images/mulanslide.jpg'>
-        </div>
-        <div class='ourSlider fade'>
-          <img src='images/avengersslide.jpg'>
-        </div>
-        <div class='ourSlider fade'>
-          <img src='images/irishmenslide.jpg'>
-        </div>
-        <div class='directions'>
-          <a href='#' class='back' onclick='nextSlide(-1)'>&#10094;</a>
-          <a href='#'class='next' onclick='nextSlide(1)'>&#10095;</a>
-        </div>
-        <div class='bars'>
-          <span class='bar active' onclick='positionSlide(1)'></span>
-          <span class='bar' onclick='positionSlide(2)'></span>
-          <span class='bar' onclick='positionSlide(3)'></span>
-        </div>
+      <div class='ourSlider fade'>
+        <a href='#'><img src='images/mulanslide.jpg'></a>
+      </div>
+      <div class='ourSlider fade'>
+        <a href='#'><img src='images/avengersslide.jpg'></a>
+      </div>
+      <div class='ourSlider fade'>
+        <a href='#'><img src='images/irishmenslide.jpg'></a>
+      </div>
+    <div class='directions'>
+      <a href='#' class='back' onclick='nextSlide(-1)'>&#10094;</a>
+      <a href='#'class='next' onclick='nextSlide(1)'>&#10095;</a>
     </div>
+    <div class='bars'>
+      <span id='openPop1' class='bar active' onclick='positionSlide(1)'></span>
+      <span id='openPop2' class='bar' onclick='positionSlide(2)'></span>
+      <span id='openPop3' class='bar' onclick='positionSlide(3)'></span>
+    </div>
+  </div>
     
   <header>
   <body>
+  
+  <!--POPUP ONE-->
+
+  <div id='popupOne' class='contentPopup'>
+
+    <div class='headerPopup'>
+    <h3>El hombre invisible<h3>
+    <h4>2h 05min / Fantasía, Terror, Suspenso</h4>
+    </div>
+    <div class='cardPop'>
+    <img class='imgPopup' src='images/comingsoon_one.jpg'>
+    <p class='sinopsisRight'>SINOPSIS
+      <br>
+      Película no recomendada a menores de 16 años.
+      <br>
+      <br>
+      Cecilia (Elisabeth Moss) es una mujer atrapada en una tóxica relación con Adrian Griffin (Oliver Jackson-Cohen), 
+      un rico y brillante científico, que también resulta ser un sociópata manipulador. Cuando este se quita la vida, 
+      deja a Cecilia una jugosa parte de su gran fortuna. El único requisito para recibir esta herencia es que ella no 
+      sea declarada como incapacitada mental. A medida que una serie de coincidencias se vuelven letales, y amenacen su 
+      vida y la de sus seres queridos, la cordura de Cecilia comenzará a desmoronarse. Empezará a sospechar que la muerte 
+      de su ex fue un engaño, mientras tratará desesperadamente de demostrar que está siendo atormentada por alguien que 
+      nadie puede ver. Esta nueva versión de la novela de H. G. Wells El Hombre invisible la produce el estudio Blumhouse.
+    </p>
+    </div>
+    <div class='video'>
+    <iframe width='560' height='315' src='https://www.youtube.com/embed/5N9vAUPtWts' frameborder='0' 
+    allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+    </div>
+      <div class='headerPopup'>  
+      <h3>Mulan<h3>
+      <h4>1h 55min / Aventura, Familia</h4>
+      </div>
+      <div class='cardPop'>
+      <img class='imgPopup' src='images/comingsoon_two.jpg'>
+      <p class='sinopsisRight'>SINOPSIS
+        <br>
+        <br>
+        China, época de la dinastía Han. Mulan (Yifei Liu) es una joven hermosa, fuerte y valiente, hija de un respetable 
+        veterano de guerra. La joven siempre se mete en líos por no ser exactamente una dama sofisticada y, de hecho, no le 
+        ha dado muy buena impresión a la casamentera, que evalúa a las jóvenes como potenciales novias. Cuando son atacados 
+        por invasores del norte, que luchan junto a una bruja, el Emperador decide formar un ejército compuesto por un varón 
+        por cada familia. Es entonces cuando Mulan se hace pasar por un guerrero, para evitar que su anciano padre tenga que 
+        ir al frente. Así, disfrazada de hombre, logra ocupar su puesto y marchar a la guerra, donde luchará valientemente 
+        junto al ejército imperial. La joven demostrará entonces su valor, pero ¿tendrán compasión cuando descubran quién es?
+        <br>
+        <br>
+        Esta nueva adaptación en acción real del clásico de Disney de 1998 lo dirige Niki Caro, realizadora responsable de 
+        filmes como La casa de la esperanza (2017) y En tierra de hombres (2005).
+      </p>
+      </div>
+      <div class='video'>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wG_3CF3VaM4" frameborder="0" allow="accelerometer; 
+      autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!--POPUP TWO-->
+
+    <div id='popupTwo' class='contentPopup'>
+
+      <div class='headerPopupTwo'>
+      <h3>Joker<h3>
+      <h4>2h 02min / Drama</h4>
+      </div>
+      <div class='cardPop'>
+      <img class='imgPopup' src='images/topfive_one.jpg'>
+      <p class='sinopsisRight'>SINOPSIS
+        <br>
+        Película no recomendada a menores de 16 años.
+        <br>
+        <br>
+        Joker mostrará por primera vez los orígenes del icónico archienemigo por excelencia de Bruce Wayne/Batman. La historia 
+        sigue de cerca la vida de Arthur Fleck (Joaquin Phoenix), un hombre con problemas psiquiátricos que vivirá una serie de 
+        acontecimientos que le harán convertirse en uno de los grandes villanos de DC Comics. El Príncipe Payaso del Crimen se 
+        cruzará en el camino de Thomas Wayne (Brett Cullen) y se acercará a su hijo, el futuro Caballero Oscuro en su versión 
+        joven (Dante Pereira-Olson).
+
+        La cinta está dirigida por Todd Phillips (R3sacón, Salidos de cuentas), que co-escribe el guión del filme junto a Scott 
+        Silver (La hora decisiva). Joaquin Phoenix (En realidad, nunca estuviste aquí) lidera el elenco principal, y completan el 
+        reparto los actores Robert De Niro (The Irishman), Zazie Beetz (Deadpool 2), Brett Cullen (Narcos), Shea Whigham (First Man 
+        (El primer hombre)), Douglas Hodge (Gorrión rojo), Glenn Fleshler (Barry) y Frances Conroy (Castle Rock).
+      </p>
+      </div>
+        <div class='headerPopupTwo'>  
+        <h3>Avengers: Endgame<h3>
+        <h4>3h 01min / Acción, Fantasía, Aventura</h4>
+        </div>
+        <div class='cardPop'>
+        <p class='sinopsisLeft'>SINOPSIS
+          <br>
+          <br>
+          Después de los devastadores eventos ocurridos en Vengadores: Infinity War, el universo está en ruinas debido a las acciones 
+          de Thanos, el Titán Loco. Tras la derrota, las cosas no pintan bien para los Vengadores. Mientras Iron Man (Robert Downey Jr.) 
+          vaga en soledad junto a Nebula (Karen Gillan) en una nave lejos de la Tierra, el grupo encabezado por Capitán América (Chris 
+          Evans), Viuda Negra (Scarlett Johansson), Hulk (Mark Ruffalo) y Thor (Chris Hemsworth) deberá tratar de revertir los efectos 
+          de la catástrofe provocada por Thanos. Los Vengadores deberán reunirse una vez más para deshacer sus acciones y restaurar el 
+          orden en el universo de una vez por todas. Esta vez, contarán también con aliados como Ojo de Halcón (Jeremy Renner) y Capitana 
+          Marvel (Brie Larson), además de Ant-Man (Paul Rudd), que presumiblemente podría haber estado atrapado en el Reino Cuántico. 
+          Juntos, se prepararán para la batalla final, sin importar cuáles sean las consecuencias.
+          <br>
+          <br>
+          Esta continuación de Vengadores: Infinity War (2018) está de nuevo dirigida por los hermanos Joe y Anthony Russo (Capitán América: 
+          Civil War, Capitán América: El Soldado de Invierno). Escribe el guión del filme el tándem formado por Christopher Markus y 
+          Stephen McFeely, autores de los libretos de Thor: El mundo oscuro (2013) y Capitán América: El Primer Vengador (2011), a partir 
+          de la serie de cómics de Marvel titulados La Guerra del Infinito, creada por Jim Starlin. El reparto del filme cuenta, entre otros, 
+          con Chris Evans (Un don excepcional), Scarlett Johansson (Ghost in the Shell: El alma de la máquina), Robert Downey Jr. (Spider-Man: 
+          Homecoming), Mark Ruffalo (Spotlight), Chris Hemsworth (Men in Black: International), Brie Larson (Kong: La Isla Calavera), Karen 
+          Gillan (Jumanji: Bienvenidos a la jungla), Jeremy Renner (La llegada), Paul Rudd (Mute), Evangeline Lilly (Pequeño Demonio), Bradley 
+          Cooper (Mula), Gwyneth Paltrow (Mortdecai) y Josh Brolin (Sicario: El día del soldado).
+        </p>
+        <img class='imgPopup' src='images/topfive_two.jpg'>
+        </div>
+        <div class='headerPopupTwo'>
+          <h3>John Wick: Capítulo 3-Parabellum<h3>
+          <h4>2h 12min / Acción</h4>
+          </div>
+          <div class='cardPop'>
+          <img class='imgPopup' src='images/topfive_three.jpg'>
+          <p class='sinopsisRight'>SINOPSIS
+            <br>
+            Película no recomendada a menores de 16 años.
+            <br>
+            <br>
+            Con una recompensa de 14 millones de dólares por su cabeza, John Wick (Keanu Reeves) está en plena huída. Después de 
+            haber roto la regla de matar a alguien en el interior del Hotel Continental, John Wick debería haber sido ejecutado. 
+            Excomunicado, con su membresía revocada, todavía dispone de una hora de ventaja para poder huir. A partir de ese tiempo, 
+            hombres y mujeres sicarios de todo el mundo tratarán de detenerle, eso sí, encontrará una aliada que sigue creyendo en él.
+
+            Tercera entrega de la saga John Wick que vuelve a estar dirigida por Chad Stahelski, responsable de las dos anteriores 
+            películas John Wick: Pacto de sangre (2017) y John Wick (Otro día para matar) (2014). Keanu Reeves (The Neon Demon) vuelve 
+            a protagonizar la película y completan el reparto Halle Berry (Kingsman: El círculo de oro), Ian McShane (American Gods), 
+            Laurence Fishburne (Mula), Lance Reddick (American Horror Story) y Anjelica Huston (Isla de perros).
+          </p>
+          </div>
+        </div>
+
+  <!--POPUP THREE-->
+
+  <div id='popupThree' class='contentPopup'>
+
+    <div class='headerPopupTwo'>
+    <h3>The Irishman: La última gran obra del crimen americano<h3>
+    <h4>Nicolás Ruíz / 27 de Noviembre de 2019</h4>
+    </div>
+    <div class='cardPop'>
+    <img class='imgPopup' src='images/review.jpg'>
+    <p class='sinopsisRight'>SINOPSIS
+      <br>
+      Película no recomendada a menores de 16 años.
+      <br>
+      <br>
+      Frank Sheeran (Robert De Niro), más conocido como El irlandés, es un asesino a sueldo de la mafia al que se le atribuyen más de 
+      25 asesinatos relacionados con el hampa. Al final de su vida, Sheeran afirmó haber estado involucrado en el asesinato de Jimmy 
+      Hoffa (Al Pacino), el poderoso jefe del sindicato de camioneros. Hoffa desapareció el 30 de julio 1975 y no fue declarado 
+      legalmente muerto hasta el 30 de julio de 1982. Su asesinato aún sigue siendo una incógnita y es uno de los misterios sin resolver 
+      más famosos en la historia de EE.UU.
+    </p>
+    </div>
+    <p class='review'>
+      Si Mean Streets era un retrato criminal de la impulsividad joven y Goodfellas y Casino del crimen como decisión de vida adulta; 
+      The Irishman es una cinta sobre las consecuencias de una vida criminal en la vejez. De hecho, es una película que sólo podía hacerse 
+      desde una perspectiva madura; ahí en donde todas las decisiones de tu vida llevan a este momento que parece el preludio del fin; ahí 
+      en donde todo lo que has hecho parece sumar para el momento presente. La reconstrucción obsesiva de todos los detalles de una vida 
+      son el centro de la remembranza de Frank; un hombre que, ante las puertas de la muerte, quiere entender por qué quedó tan solo, 
+      condenado a este silencio. Pero la tragedia nunca explica las razones de la fatalidad: Quello che succede, succede.
+      <br><br>
+      Cada vez que, en The Irishman, aparece un mafioso real en pantalla, aparecen también los datos de su muerte. En la narración de Sheeran 
+      presenciamos entonces la condena real de una vida que recuerda a cuántos sobrevivió. Esto nos muestra que, contrariamente a las narraciones 
+      de Homero en La Ilíada, aquí no se cuenta, retrospectivamente, la vida genealógica de los hombres que mueren, sino la muerte prescrita de 
+      los hombres que todavía viven. Ésta, finalmente, es una tragedia. La elección de vida en la mafia rara vez permite una vida longeva… y la 
+      vida longeva es un castigo aparte. Frank tiene que vivir sabiendo cómo las decisiones de todos los demás acabaron en una condena y cómo sus 
+      propias decisiones le dieron este castigo inexorable de morir en vida, conectado a una máquina de diálisis, con una enfermera a la que no le 
+      interesa quién es Jimmy Hoffa.
+      <br><br>
+      Lo que le queda, ahora, es el silencio de un dios incierto y la empatía fría de una sala de cine que lo ve, para abandonarlo, a través de 
+      la puerta entreabierta de una historia difusa…
+      <br><br>
+      ¿A quién le importa, finalmente, el silencio de este hombre solitario?
+      <br><br>
+      En unos días más, se celebra Navidad.
+    </p>
+    </div>
+    
   <div class="contenido">
     <div id="conteinerButton">
       <input type="text" placeholder="Nombre de pelicula" id="nameItem">
       <button id="nameButton" type="submit" value="get"> Buscar </button>
     </div>
-  
     
     <div id="root"></div>
 

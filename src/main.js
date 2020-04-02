@@ -52,6 +52,8 @@ function getResultName(){
        //creates a const that saves the results
        const moviesName = data.Search;
        //iterates through each element in moviesName
+       console.log(moviesName);
+       
        moviesName.forEach(movie => {
            //Save the content in the  let container
            const paraph= document.createElement('p')
@@ -60,8 +62,7 @@ function getResultName(){
            <img src=${movie.Poster}/>
            <h2>${movie.Title}</h2>
            <p>Año: ${movie.Year}</p>
-           <p>Genero: ${movie.Genre}</p>
-           <p>Director: ${movie.Director}</p>
+           <p>Genero: ${movie.Type}</p>
            `
           container.appendChild(paraph)
        });
@@ -78,3 +79,29 @@ function close(){
   document.getElementById('modalWindow').style.display='none';
 }
 
+
+//SLIDES CONTENT
+const openComingSoon = document.querySelector('#openPop1');
+const openTop5 = document.querySelector('#openPop2');
+const openReview = document.querySelector('#openPop3');
+
+openComingSoon.addEventListener('click', function(){
+document.getElementById('popupOne').style.display='block';
+document.getElementById('contenido').style.display='none';
+document.getElementById('popupTwo').style.display='none';
+document.getElementById('popupThree').style.display='none';
+});
+
+openTop5.addEventListener('click', function(){
+document.getElementById('popupTwo').style.display='block';
+document.getElementById('popupOne').style.display='none';
+document.getElementById('contenido').style.display='none';
+document.getElementById('popupThree').style.display='none';
+});
+
+openReview.addEventListener('click', function(){
+    document.getElementById('popupThree').style.display='block';
+    document.getElementById('popupTwo').style.display='none';
+    document.getElementById('contenido').style.display='none';
+    document.getElementById('popupOne').style.display='none';
+});

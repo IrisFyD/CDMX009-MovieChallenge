@@ -6,8 +6,8 @@ body{
    -webkit-background-size: cover !important;
    -moz-background-size: cover !important;
    -o-background-size: cover !important;
-   background-color: #E8E8E8;
-   color: black;
+   background-color: #000000;
+   font-family: candara;
 }
 
 /* Slider */
@@ -104,8 +104,6 @@ body{
   position: absolute;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /*background-image: url('images/background.jpg');*/
-  background-color:#E8E8E8;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
@@ -262,4 +260,63 @@ transform:scale(1.1)
   #footer img{
   padding-left:40px;
    height: 35px;
+  }
+  
+/*POPUPS CONTENT*/
+  .contentPopup{
+      background: #E0DDDA;
+      padding: 50px;
+  }
+  .headerPopup{
+      font-size: 22px;
+      text-align: center;
+      letter-spacing: 10px;
+      margin-bottom: 40px;
+  }
+  .cardPop{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  .imgPopup{
+      width: 400px;
+  }
+  .sinopsisRight{
+      font-size: 18px;
+      letter-spacing: 1px;
+      margin-left: 30px;
+      text-align: justify;
+  }
+  .sinopsisLeft{
+      font-size: 18px;
+      letter-spacing: 1px;
+      margin-right: 30px;
+      text-align: justify;
+  }
+  .video{
+      padding: 30px;
+      text-align: center;
+  }
+  .headerPopupTwo{
+      font-size: 22px;
+      text-align: center;
+      letter-spacing: 10px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+  }
+  .review{
+      font-size: 18px;
+      letter-spacing: 1px;
+      text-align: justify;
+      padding: 40px;
+  }
+  #popupOne{
+      display: none;
+  }
+  #popupTwo{
+      display: none;
+  }
+  #popupThree{
+      display: none;
   }
