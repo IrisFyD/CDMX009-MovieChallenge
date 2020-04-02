@@ -43,7 +43,7 @@ let container = document.getElementById('root');
 let buttonSendItem = document.getElementById('nameButton');
 buttonSendItem.addEventListener('click', getResultName);
 
-//Functions
+/*//Functions
 function getResultName(){
     let nameItemReference = nameItem.value;
     fetch('http://www.omdbapi.com/?s='+ nameItemReference + '&apikey=3d2c4f6f')
@@ -62,7 +62,7 @@ function getResultName(){
            container.appendChild(paraph)
        });
     })
-};
+};*/
 
 /*modal*/
 function open(){
@@ -74,3 +74,30 @@ function close(){
   document.getElementById('modalWindow').style.display='none';
 }
 
+
+//prueba por titulo
+//Functions
+function getResultName(){
+    let nameItemReference = nameItem.value;
+    fetch('http://www.omdbapi.com/?s='+ nameItemReference + '&apikey=3d2c4f6f')
+    .then(res => res.json())
+    .then(data => {
+        //creates a const that saves the results
+       const moviesName = data.Search;
+       //iterates through each element in moviesName
+       moviesName.forEach(movie => {
+           //Save the content in the  let container
+           const paraph= document.createElement('p')
+           paraph.classList.add('card')
+           paraph.innerHTML += `
+           <img src=${movie.Poster}/>
+           <h2>${movie.Title}</h2>
+           <p>Año: ${movie.Year}</p>
+           <p>Genero: ${movie.Genre}</p>
+           <p>Director: ${movie.Director}</p>
+           `
+          container.appendChild(paraph)
+
+       });
+    })
+};
