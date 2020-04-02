@@ -33,7 +33,7 @@ Se crean historias de usuario.
 
 #### Feedback
 
-![Feedback](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/src/images/feeedback.png?raw=true)
+![Feedback](https://github.com/IrisFyD/CDMX009-MovieChallenge/blob/master/src/images/Final.jpg?raw=true)
 
 ## Aprendizajes
 
