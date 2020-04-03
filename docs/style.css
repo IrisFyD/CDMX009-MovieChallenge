@@ -356,4 +356,56 @@ transform:scale(1.1)
     color: #ffffff;
     font-size: 3.0vw;
     }
+
+/*POPUPS CONTENT*/
+.contentPopup{
+  background: #E0DDDA;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.headerPopup{
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 10px;
+  margin-bottom: 40px;
+}
+.cardPop{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.imgPopup{
+  width: 300px;
+}
+.sinopsisRight{
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-left: 30px;
+  text-align: justify;
+}
+.sinopsisLeft{
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-right: 30px;
+  text-align: justify;
+}
+.video{
+  padding: 30px;
+  text-align: center;
+}
+.headerPopupTwo{
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.review{
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: justify;
+  padding: 40px;
+}
   }
