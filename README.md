@@ -38,6 +38,8 @@ Se crean historias de usuario.
 ## Aprendizajes
 
 **Habilidades tecnicas reforzadas:**
+
+**Javascript**
 - Fetch
 - Loop (forEach)
 - HTML semántico
