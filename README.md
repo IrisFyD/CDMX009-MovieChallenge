@@ -43,6 +43,7 @@ Se crean historias de usuario.
 - HTML semántico
 - Buenas practicas
 - Manejo de flexbox
+
 **UX**
 - Historias de usuario
 - Feedback
